@@ -4,24 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarea n°3</title>
-    <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <header> imagen o logo
-      <nav>acá puede ir un menú de navegación</nav>
+    <header class="header">
+      <div>
+        <img
+          class="header__image"
+          src="assets/img/logo.png"
+          alt="Logo empresa"
+        />
+      </div>
+      <nav class="header__container">
+        <ul>
+          <a class="header__link" href="#">Home</a>
+          <a class="header__link" href="#">Quienes somos</a>
+          <a class="header__link" href="#">Servicios</a>
+          <a class="header__link" href="#">Portafolio</a>
+          <a class="header__link" href="#">Contacto</a>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      este anida otras secciones como
-      <section>
-        este puede anidar otras secciones como
-        <article>imagenes por ejemplo1</article>
-        <article>imagenes por ejemplo2</article>
-        <article>imagenes por ejemplo3</article>
+    <main class="project">
+      <section class="categories">
+        <article class="categories__card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+        <article class="categories__card">Excepturi tempore consequuntur laboriosam, blanditiis dicta iure repudiandae aspernatur</article>
+        <article class="categories__card">optio provident autem corporis eos vero atque quae delectus eaque sequi est reprehenderit!</article>
+      </section>
+      <section class="lugares">
+        <h1 class="lugares__title">Lorem ipsum dolor sit</h1>
+        <img class="lugares__img" src="assets/img/paisaje1.jpg" alt="paisaje1">
+        <img class="lugares__img" src="assets/img/paisaje2.jpg" alt="paisaje2">
+        <img class="lugares__img" src="assets/img/paisaje3.jpg" alt="paisaje3">
       </section>
     </main>
 
-    <footer>de esos que son pequeños mejor</footer>
-
+    <footer>
+      <footer class="footer">
+        <p id="copyright">&copy;2024 todos los derechos reservados.</p>
+      </footer>
+    </footer>
   </body>
 </html>
